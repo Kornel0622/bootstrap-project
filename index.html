@@ -22,14 +22,13 @@
           <li class="nav-item">
             <a class="nav-link" href="információk.html">Információk</a>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="index.html" id="dropdown-menu" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              Dropdown
+          <li class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle"id="dropdownMenuButton1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              További infók
             </a>
-            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
               <li><a class="dropdown-item" href="halottak.html">Halottak/sérültek száma</a></li>
               <li><a class="dropdown-item" href="országok.html">Résztvevő országok</a></li>
-              <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="magyarország.html">Magyarország szerepe</a></li>
             </ul>
           </li>
@@ -38,7 +37,7 @@
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <input class="form-control me-2" type="search" placeholder="Keresés" aria-label="Search">
           <button class="btn btn-outline-success" type="submit">Keresés</button>
         </form>
       </div>
@@ -61,7 +60,52 @@
       <p>A történelemtudósok egy része szerint ugyanakkor ezen két távol-keleti ország katonai konfliktusa még nem terjedt ki a világ több pontjára, így az helyi jellegűnek értelmezhető és a világháború szoros előzményének tekinthető.</p>
       <p>A háború Európában 1945. május 8-án Németország, míg Ázsiában szeptember 2-án Japán feltétel nélküli megadásával fejeződött be.</p>
     </div>
-    <img src="vh.jpg" alt="katonák" id="katonák">
+   <h2>Közvetett előzmények</h2> <div>
+     <p>Az első világháború következtében drámaian megváltozott Közép- és Kelet-Európa térképe.</p>
+     <p>A meggyengült német és orosz nagyhatalmak között több független állam alakult, többségük, vagyis Lengyelország és a kisantant-államok a francia politika szövetségesének számítottak, azonban az Osztrák-Magyar Monarchia 1918-as felbomlása után nem akadt olyan hatalmi tényező, amely a német vagy az orosz (később szovjet) törekvéseket ellensúlyozta volna.</p>
+     <p>Mivel az első világháborút követő forradalmi években a bolsevik típusú hatalomátvétel Oroszországon kívül kudarcot vallott, mintegy válaszként több ország közvéleménye jobbra tolódott.</p>
+     <p>A húszas évek végétől és a harmincas évek elejétől kezdve a térség politikai és gazdasági válsággal sújtott országai sorra autoriterré váltak: vagy egyszemélyes, monarchikus diktatúrává (Jugoszlávia, Románia és Bulgária esetében ún. királydiktatúrává), vagy mérsékelten tekintélyelvű rendszerré (pl. Lengyelország).</p>
+   </div><img src="vh.jpg" alt="katonák" id="katonák">
+  
+    
+</div>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Accordion Item #1
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Accordion Item #2
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Accordion Item #3
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+      </div>
+    </div>
+  </div>
 </div>
 </body>
 </html>

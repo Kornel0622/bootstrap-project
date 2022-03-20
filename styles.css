@@ -3,4 +3,12 @@ body{
 }
 p{
   font-style: italic; 
+  margin-right: 3cm;
+  margin-left: 1cm;
+}
+h1{
+  color: blue;
+}
+img{
+  margin-left: 18cm;
 }
